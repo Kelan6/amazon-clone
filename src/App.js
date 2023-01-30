@@ -1,10 +1,12 @@
 import './App.css';
+import Header from './Header.js'
+import Home from './Home'
 
 function App() {
   return (
     <div className="app">
-      <h1> Lets build this Store 🫰</h1>
-      <h2> trying to check github sync with prior project</h2>
+      <Header/>
+      <Home/>
     </div>
   );
 }
